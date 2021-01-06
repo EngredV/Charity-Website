@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+html { 
+       overflow-x: hidden;
+       height: 100%;
+       font-size:100%; 
+}
+
+body {
+  overflow-x: hidden;
+  background: #444444;
+  color: #FFFFFF;
+  margin: 0;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  background: url("heartHands.jpeg");
+  background: rgba(68, 68, 68, 0.9), url("heartHands.jpeg");
+  background-attachment: fixed;
+  background-size: cover; 
+} 
+
+style {
+    padding: 4rem;
+    min-height: calc(100vh - 60px);
+}
+
+h1 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 6rem;
+    margin-top: 1rem;
+    padding: 0.2rem 1rem;
+}
+
+h2 {
+    margin-top: 40rem;
+    padding: 0.2rem 1rem;
+    background: rgba(73, 73, 73, 0.5); 
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 1rem; 
+    display: inline-block;
+    font-size: 180%;
+}
+
+icons {
+    color: #FFFFFF;
+}
+    
+a:link {
+    padding: 0.4rem;
+    list-style-type: none;
+    font-size: 180%;
+    color: #FFFFFF;
+}
+      
+a:hover {
+    color: #FF0000;
+    transition: all 0.5s ease-out; 
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%; 
+}
+
+#mySidenav {
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 250px;
+    margin-top: 60px;
+    background: #A1A1A1;
+    transfrom: translateX(-250px);
+    transition: transform 250ms ease-in-out;
+    opacity: 0.5;
+}
+
+.sideMenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sideMenu li {
+    font-size: 1rem;
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10) 
+}
+
+.sideMenu li a {
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.sideMenu li a:hover {
+    color: #FF0000;
+    transition: all 0.5s ease-out; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #FF4949;
+    padding: 10px;
+    width: 800px;
+    position: absolute;
+    top: 300px;
+    right: 350px;
+    left: 350px;
+    width: 700px;
+    opacity: 0.8;
+    
+}
+
+grid-item {
+    background-color: #FFFAFA;
+    border: 1px solid rgba(236, 2240, 241, 1);
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.grid-containerA {
+    display: gridA;
+    grid-template-columns: auto auto;
+    background-color: #FF4949;
+    padding: 10px;
+    width: 800px;
+    position: absolute;
+    top: 300px;
+    right: 350px;
+    left: 350px;
+    width: 700px;
+    opacity: 0.8;
+    text-align: center;    
+}
+
+.grid-containerB{
+    display: gridB;
+    grid-template-columns: auto auto;
+    background-color: #FF4949;
+    padding: 10px;
+    width: 800px;
+    position: absolute;
+    top: 300px;
+    right: 350px;
+    left: 350px;
+    width: 700px;
+    opacity: 0.8;
+    text-align: center;    
+}
+
