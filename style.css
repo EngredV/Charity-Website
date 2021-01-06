@@ -1,5 +1,6 @@
 
 html, body, #page {
+    background-color: #464648;
     height:100%;
     width:100%;
     margin:0;
@@ -9,7 +10,7 @@ html, body, #page {
     display:flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: white;
+    background-color: #464648;
     font-family: 'Gotham A','Gotham B',Arial,sans-serif;
 
 }
@@ -24,7 +25,7 @@ padding: 10px 15px;
 font-size: 20px;
 margin-left: 5px;
 font-family: 'Gotham A','Gotham B',Arial,sans-serif;
-color: #00ABAE;
+color: #FFFFFF;
 
 }
 
@@ -37,7 +38,7 @@ color: #00ABAE;
  .header_section a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #00ABAE;
+    color: #FFFFFF;
  }
    
 a: hover{
@@ -66,7 +67,7 @@ flex-shrink: 1;
 
 .box-2 h2{
 text-align: center;
-color: #00ABAE;
+color: #FFFFFF;
 }
 
 .box-2{
@@ -74,8 +75,8 @@ color: #00ABAE;
     font-size: 18px;
     font-family: 'Gotham A','Gotham B',Arial,sans-serif;
    width:50%;
-   color: rgba(0, 0, 0, 0.637);
-   background-color: rgba(192, 192, 192, 0.185);
+   color: #FFFFFF;
+   background-color: #464648;
 }
 
 .box-3{
@@ -83,8 +84,8 @@ color: #00ABAE;
     font-size: 44px;
     font-family: 'Gotham A','Gotham B',Arial,sans-serif;
     text-align: center;
-    background-color: rgba(192, 192, 192, 0.185);
-    color: rgba(0, 0, 0, 0.637);
+    background-color: #464648;
+    color: #FF0000;
 }
 
 .box-4{
@@ -106,7 +107,7 @@ img{
    height: 100%;
     text-align: center;
     font-family: 'Gotham A','Gotham B',Arial,sans-serif;
-    background-color: rgba(192, 192, 192, 0.185);
+    background-color: #464648;
 
 }
 
